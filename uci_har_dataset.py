@@ -17,8 +17,8 @@ LABELS = ['WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STAND
 SIGNALS = ["body_acc_x_", "body_acc_y_", "body_acc_z_",
            "body_gyro_x_", "body_gyro_y_", "body_gyro_z_",
            "total_acc_x_", "total_acc_y_", "total_acc_z_"]
-train_paths = ['C:/Users/Pia Purohit/PycharmProjects/Datasets/UCI HAR Dataset/UCI HAR Dataset/train/Inertial Signals/' + signal + 'train.txt' for signal in SIGNALS]
-test_paths = ['C:/Users/Pia Purohit/PycharmProjects/Datasets/UCI HAR Dataset/UCI HAR Dataset/test/Inertial Signals/' + signal + 'test.txt' for signal in SIGNALS]
+train_paths = ['C:/Users/admin/Desktop/hrudaya_datasets/UCI HAR Dataset.zip/UCI HAR Dataset/test/Inertial Signals' + signal + 'train.txt' for signal in SIGNALS]
+test_paths = ['C:/Users/admin/Desktop/hrudaya_datasets/UCI HAR Dataset.zip/UCI HAR Dataset/test/Inertial Signals' + signal + 'test.txt' for signal in SIGNALS]
 def __load_X(X_signal_paths):
     X_signals = []
 
